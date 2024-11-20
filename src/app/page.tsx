@@ -1,5 +1,6 @@
 "use client";
 
+import QueryStates from "./_components/query-sates";
 import QueryState from "./_components/query-state";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <QueryState queryParamName="counter" />
       <QueryState queryParamName="counter" />
       <QueryState queryParamName="test" />
+      <QueryStates />
     </div>
   );
 }
